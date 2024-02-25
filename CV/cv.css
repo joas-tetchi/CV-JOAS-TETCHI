@@ -1,0 +1,178 @@
+/* Styles pour le corps */
+body {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 60px; /* Ajoute un remplissage au-dessus du contenu du corps pour éviter le chevauchement avec l'en-tête */
+    padding-left: 10px; /* Ajoute un remplissage à gauche du contenu du corps pour l'espace entre le bord de l'écran et le contenu */
+    padding-right: 10px; /* Ajoute un remplissage à droite du contenu du corps pour l'espace entre le bord de l'écran et le contenu */
+    padding: 60px; /* Remplissage global du corps */
+    margin: 0; /* Supprimer les marges par défaut du corps */
+}
+
+/* Styles pour le header */
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000; /* Assurez-vous que le z-index est élevé pour que le header soit au-dessus des autres éléments */
+    background-color: #c0b19b;
+    padding: 10px; /* Ajoutez un padding pour l'espace entre le contenu du header et le bord de l'écran */
+    height: auto;
+    border-bottom: 2px solid #865e40;; /* Ajoute un bord inférieur de 2 pixels de large solide */
+
+}
+
+.section-with-nav {
+    margin-top: 80px; /* Remplacez 60px par la hauteur de votre barre de navigation */
+}
+
+/* Pour rendre les cartes responsives */
+.card {
+    width: 100%; /* Utilisation de la largeur maximale disponible */
+    margin-bottom: 20px; /* Espacement entre les cartes */
+}
+
+/* Autres styles pour les éléments de la page */
+.env { 
+    margin-top: 15px;
+}
+
+#projets {
+  padding-bottom: 50px;
+    background-color: #c0b19b;
+    padding-top: 50px;
+}
+
+#projets h2{
+    text-align: center;
+}
+
+.projet { 
+    text-align: left;
+}
+
+.pprojet { 
+    text-align: center;
+}
+.dip{
+    text-align: center;
+}
+
+.btn-voir{
+    text-align: center;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Augmente la taille de la carte au survol */
+    transition: transform 0.3s ease; /* Ajoute une transition fluide */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Ajoute une ombre douce */
+}
+
+/* Pour ajuster le padding de la section à propos sur les petits écrans */
+#a-propos {
+    padding: 20px;
+    background-color: #c0b19b;
+}
+
+.card-body {
+    width: auto;
+}
+
+/* Pour ajuster le texte des cartes au centre sur les petits écrans */
+.card-text, .description {
+    text-align: center;
+}
+
+.pjs {
+    width: auto;
+    height: auto;
+}
+
+.accueil {
+    padding: 50px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar-nav li:hover {
+    background-color: #865e40; /* Changez la couleur de fond au survol */
+    border-top-left-radius: 10px; /* Ajoute un rayon de bordure arrondi au coin supérieur gauche */
+    border-top-right-radius: 10px; /* Ajoute un rayon de bordure arrondi au coin supérieur droit */
+    margin-bottom: -25px; /* Ajoute une marge négative en bas pour rapprocher du bord du header */
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color:  #865e40;;
+}
+
+.navbar-nav .nav-link {
+    color: black !important;
+}
+.navbar-nav .nav-item {
+    margin-right: 50px;
+}
+.navbar-nav {
+    margin-left: auto; /* Déplace le menu vers la droite */
+   
+      
+    
+}
+.d-flex align-items-center{
+    margin-top: -20px;
+
+}
+
+/* Style pour rendre la carte transparente avec une bordure arrondie */
+.card-apropos {
+    background-color: rgba(255, 255, 255, 0); /* Fond transparent */
+    border-radius: 30px; /* Bordure arrondie avec un rayon de 30px */
+    border: 2px solid; /* Bordure solide de 2px */
+    transition: background-color 0.3s, border-radius 0.3s; /* Animation de transition pour le fond et le bord */
+  }
+  
+  .card-apropos:hover {
+    background-color: rgba(255, 255, 255, 0.5); /* Fond semi-transparent au survol */
+    border-radius: 10px; /* Bordure arrondie avec un rayon de 10px au survol */
+  }
+  
+  .blog{
+    text-align: center;
+  }
+  
+  .btn{
+    text-align: center;
+    background-color: #c0b19b;
+  }
+
+  
+.contact {
+    text-align: center;
+}
+
+.off{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align:center;
+}
+
+
+/* Styles pour le footer */
+footer {
+    background-color: #c0b19b; 
+    color: #fff; /* Couleur du texte blanc */
+  }
+  
+  footer a {
+    color: #fff; /* Couleur des liens dans le footer */
+  }
+  
+  footer a:hover {
+    text-decoration: none; /* Supprimer la soulignement au survol des liens */
+  }
+  
+  
